@@ -469,5 +469,92 @@
 		]
 		}
 	]
+	}, {
+		"title": "Test",
+		"subsections": [
+		{
+			"title": "Qualitative testing",
+			"cards": [{
+				"id": "usability-testing",
+				"title": "Usability testing",
+				"text-copy": "Test your ideas, designs and sketches as often as possible ad-hoc, in a lab or online",
+				"links": [{
+					"link-text": "Usability testing overview",
+					"link-url": "https://www.usability.gov/how-to-and-tools/methods/running-usability-tests.html"
+				},{
+					"link-text": "Remote user testing",
+					"link-url": "https://www.optimalworkshop.com/"
+				},{
+					"link-text": "Travelling usability lab",
+					"link-url": "https://www.nngroup.com/articles/traveling-usability-lab/"
+				}
+			]
+			}, {
+				"id": "usability-evaluation",
+				"title": "Usability evaluation",
+				"text-copy": "Use the 10 usability heuristics checklist, or expert evaluation",
+				"links": [{
+					"link-text": "Usability heuristics",
+					"link-url": "https://www.nngroup.com/articles/ten-usability-heuristics/"
+				}
+			]
+			}, {
+				"id": "cognitive-walkthrough",
+				"title": "Cognitive walkthrough",
+				"text-copy": "Evaluate a design by answering questions via walking through key scenarios",
+				"links": [{
+					"link-text": "Cognitive walkthrough",
+					"link-url": "http://www.userfocus.co.uk/articles/cogwalk.html"
+				}
+			]
+			}, {
+				"id": "guerilla-testing",
+				"title": "Guerilla testing",
+				"text-copy": "Grab people at the office or a coffee shop to test your ideas, prototypes or sketches",
+				"links": [{
+					"link-text": "Guerilla testing",
+					"link-url": "http://www.uxbooth.com/articles/the-art-of-guerrilla-usability-testing/"
+				}
+			]
+			}
+		]
+		},
+		{
+			"title": "Quantitative testing",
+			"cards": [{
+				"id": "ab-testing",
+				"title": "A/B and multivariate testing",
+				"text-copy": "Test and compare your ideas. Common method for quantiative comparision but make sure you A/B guerilla test ideas as well",
+				"links": [{
+					"link-text": "A/B testing",
+					"link-url": "https://www.smashingmagazine.com/2010/06/the-ultimate-guide-to-a-b-testing/"
+				}
+			]
+			}, {
+				"id": "kpi-setup",
+				"title": "KPI setup",
+				"text-copy": "Work with your stakeholder so set goals. Make sure you have everything you need to measure the outcome. Do benchmark studies to compare with competitors",
+				"links": [{
+					"link-text": "UX metrics",
+					"link-url": "https://library.gv.com/how-to-choose-the-right-ux-metrics-for-your-product-5f46359ab5be#.mqfdfggoq"
+				},
+				{
+					"link-text": "Benchmark studies",
+					"link-url": "http://www.userzoom.com/ux-benchmarking/competitive-ux-benchmark-studies-win-customers-by-staying-ahead-of-the-competition/"
+				}
+			]
+			}, {
+				"id": "analytics",
+				"title": "Web analytics",
+				"text-copy": "Identify problems and user behavaiour via analytics. What do you users do on your webiste? Do they get stuck somewhere?",
+				"links": [{
+					"link-text": "Analytics for UX",
+					"link-url": "https://www.nngroup.com/articles/analytics-user-experience/"
+				}
+			]
+			}
+		]
+		}
+	]
 	}
 ]}
