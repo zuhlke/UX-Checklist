@@ -180,6 +180,7 @@ ul {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	border: 1px solid $gray-lighter;
+	height: 180px;
 
 	&__content {
 		// padding: 0 10px;
@@ -218,71 +219,63 @@ ul {
 	}
 }
 
-// .row-eq-height {
-//   display: -webkit-box;
-//   display: -webkit-flex;
-//   display: -ms-flexbox;
-//   display:         flex;
+
+
+
+
+
+// .col-xs-auto, .col-xs1-auto, .col-sm-auto, .col-md-auto, .col-lg-auto,
+// .col-xs-auto-right, .col-xs1-auto-right, .col-sm-auto-right, .col-md-auto-right, .col-lg-auto-right,
+// .col-middle {
+//   position: relative;
+//   min-height: 1px;
+//   padding-left: 15px;
+//   padding-right: 15px;
 // }
 
+// .col-middle {
+//   display: table;
+// }
 
+// .col-xs-auto {
+//   float: left;
+// }
+// .col-xs-auto-right {
+//   float: right;
+// }
 
+// @media (min-width: 480px) {
+//   .col-xs1-auto {
+//     float: left;
+//   }
+//   .col-xs1-auto-right {
+//     float: right;
+//   }
+// }
 
+// @media (min-width: 768px) {
+//   .col-sm-auto {
+//     float: left;
+//   }
+//   .col-sm-auto-right {
+//     float: right;
+//   }
+// }
 
+// @media (min-width: 992px) {
+//   .col-md-auto {
+//     float: left;
+//   }
+//   .col-md-auto-right {
+//     float: right;
+//   }
+// }
 
-
-.col-xs-auto, .col-xs1-auto, .col-sm-auto, .col-md-auto, .col-lg-auto,
-.col-xs-auto-right, .col-xs1-auto-right, .col-sm-auto-right, .col-md-auto-right, .col-lg-auto-right,
-.col-middle {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.col-middle {
-  display: table;
-}
-
-.col-xs-auto {
-  float: left;
-}
-.col-xs-auto-right {
-  float: right;
-}
-
-@media (min-width: 480px) {
-  .col-xs1-auto {
-    float: left;
-  }
-  .col-xs1-auto-right {
-    float: right;
-  }
-}
-
-@media (min-width: 768px) {
-  .col-sm-auto {
-    float: left;
-  }
-  .col-sm-auto-right {
-    float: right;
-  }
-}
-
-@media (min-width: 992px) {
-  .col-md-auto {
-    float: left;
-  }
-  .col-md-auto-right {
-    float: right;
-  }
-}
-
-@media (min-width: 1200px) {
-  .col-lg-auto {
-    float: left;
-  }
-  .col-lg-auto-right {
-    float: right;
-  }
-}
+// @media (min-width: 1200px) {
+//   .col-lg-auto {
+//     float: left;
+//   }
+//   .col-lg-auto-right {
+//     float: right;
+//   }
+// }
