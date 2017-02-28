@@ -1,0 +1,907 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Zuhlke UX Checklist</title>
+		<link rel="shortcut icon" href="favicon.ico?v=1">
+		<link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<!-- <meta name="google-site-verification" content="3Dof5ybDW6vSpHqG5nnJubTZeQ9mYWihL5mPP02FxtA" /> -->
+		<link rel="stylesheet" href="css/jquery-labelauty.css" />
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<!-- Magnific Popup core CSS file -->
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		<!-- <script src="js/vendor/modernizr.js"></script> -->
+		
+	</head>
+	<body>
+		
+		<div id="header">
+			<!-- LOGO AND TITLE -->
+			<div class="title-section">
+				<h1 class="logo"></h1>
+				<h1 class="header-title">Zuhlke UX Checklist</h1>
+			</div>
+
+			<!-- <div id="gdrivebox" class="hide-for-print">
+				<span id="signin-do">
+					<button id="signin"><i class="fa fa-sign-in"></i>Sign in with Google</button> to sync across devices.
+					<a href="#signin-info" class="open-popup-link">
+					<i class="fa fa-info-circle fa-lg"></i></a>
+				</span>
+				<span id="signin-failed">Sign in failed! :(</span>
+				<span id="signin-success">You're signed in with Google.</span>
+				
+				<div id="signin-info" class="white-popup mfp-hide">
+					<p>We use Google Drive to create and save a file on your account so you will be able to open the same checklist on all your connected devices.
+					</p>
+					<p>
+						And guess what?! You can share it! </br>
+						Well, yeah is not a big deal, but it come for free, yes like everything else, what I mean is that we didn't had to do anything for that, right? So basically you connect with Google, we create the file, you go to your Google Drive folder, try to find the new file, I have no idea where it is or what the name will be, the <a href="https://twitter.com/alefranz" target="_blank" title="@alefranz">guy</a> who did this didn't tell us, once you've found the file share it with your friends. Done! </br>
+						When your friends connect their Google account they should see the same checklist status. </br>
+						Magic isn't it? No! That's technology fool!
+					</p>
+					<p>Also, we will not use any of your data, we didn't have any kind of database or save something somewhere in any way, the file we create is yours and yours only and is the only thing we are able to do right now.
+					</p>
+					<p>
+						Oh, and just want to remind you that if you still not believe it, everything is open source and you can check the github repo <a href="https://github.com/uxchecklist/uxchecklist.github.io" target="_blank" title="github repo">here</a> (feel free to fork it and do awesome things, or help us make it better).
+					</p>
+				</div>
+			</div> -->
+			<!-- OTHER CHECKLISTS -->
+			<div class="other-checklists">
+				<h2>Other checklists</h2>
+				<ul class="list clearfix">
+					<li class="list__item"><a href="http://ixdchecklist.com/">IXD checklist</a></li>
+					<li class="list__item"><a href="http://www.uxme.co.uk/10-usability-heuristics-explained-with-examples/">10 Heuristics</a></li>
+					<li class="list__item"><a href="https://www.goodui.org/">UI checklist</a></li>
+				</ul>
+			</div>
+		</div>
+		
+
+		
+
+
+
+		<!-- DISCOVERY SECTION -->
+		<div class="row clearfix content-section discovery-section">
+			<h2 class="content-section__title">Discovery and research</h2>
+		</div>
+		<!-- DISCOVER -->
+		<form id="checklist-form" method="POST">
+			<div class="row clearfix">
+				<div class="title discovery__title--semi-full"><span>Discover</span></div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="business-context">Business context</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="business-context" type="checkbox">
+					</div>
+				</div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">Competitor analysis</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox3">Benchmark studies</label>
+						<p></p>
+						<p>Add text here <a class="more hide-for-print" href="https://www.gov.uk/service-manual/user-centred-design/user-research/index.html" target="_blank" title="An introduction to user research techniques">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox3" type="checkbox">
+					</div>
+				</div>
+			</div>
+			<!-- ANALYSIS PART 1 -->
+			<div class="row clearfix">
+				<div class="title discovery__title--light"><span>Analysis</span></div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox4">Data analysis</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox4" type="checkbox">
+					</div>
+				</div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">User Journey Maps (now)</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox3">Content analysis</label>
+						<p></p>
+						<p>Add text here <a class="more hide-for-print" href="https://www.gov.uk/service-manual/user-centred-design/user-research/index.html" target="_blank" title="An introduction to user research techniques">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox3" type="checkbox">
+					</div>
+				</div>
+			</div>
+			
+			<!-- ANALYSIS PART 2-->
+			<div class="row clearfix">
+				<div class="title discovery__title--light"><span></span></div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">User feedback</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">Empathy map</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox3">Task analysis</label>
+						<p></p>
+						<p>Add text here <a class="more hide-for-print" href="https://www.gov.uk/service-manual/user-centred-design/user-research/index.html" target="_blank" title="An introduction to user research techniques">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox3" type="checkbox">
+					</div>
+				</div>
+			</div>
+			<!-- USER RESEARCH -->
+			<div class="row clearfix">
+				<div class="title discovery__title--lightest"><span>User research</span></div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">Context of use</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">Personas</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox3">Artefact analysis</label>
+						<p></p>
+						<p>Add text here <a class="more hide-for-print" href="https://www.gov.uk/service-manual/user-centred-design/user-research/index.html" target="_blank" title="An introduction to user research techniques">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox3" type="checkbox">
+					</div>
+				</div>
+			</div>
+			
+			<!-- PLANNING SECTION -->
+			<div class="row clearfix content-section planning-section">
+				<h2 class="content-section__title">Planning</h2>
+			</div>
+			<!-- PLANNING -->
+			<div class="row clearfix">
+				<div class="title planning__title--semi-full"><span>Planning</span></div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">Story mapping</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">User stories</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+				<div class="cards empty_card">
+				</div>
+			</div>
+			<!-- IDEATE SECTION -->
+			<div class="row clearfix content-section ideate-section">
+				<h2 class="content-section__title">Ideate</h2>
+			</div>
+			<!-- HYPOTHESISE -->
+			<div class="row clearfix">
+				<div class="title ideate__title--semi-full"><span>Hypothesise</span></div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/brainstorm.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">Brainstorm and sketch</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">Scenarios</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox3">Navigation concepts</label>
+						<p></p>
+						<p>Add text here <a class="more hide-for-print" href="https://www.gov.uk/service-manual/user-centred-design/user-research/index.html" target="_blank" title="An introduction to user research techniques">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox3" type="checkbox">
+					</div>
+				</div>
+			</div>
+			<!-- INFORMATION ARCHITECTURE -->
+			<div class="row clearfix">
+				<div class="title ideate__title--light"><span>Information architecture</span></div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/ia.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">OOUX (Object Oriented User Experience)</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/ia.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">Information Architecture design</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+				<div class="cards empty_card">
+				</div>
+			</div>
+			<!-- FUTURE MAPPING -->
+			<div class="row clearfix">
+				<div class="title ideate__title--lightest"><span>Future mapping</span></div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">User journey maps</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">Process maps</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">See/do diagrams</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+			</div>
+			<!-- PROTOTYPE SECTION -->
+			<div class="row clearfix content-section prototype-section">
+				<h2 class="content-section__title">Prototype</h2>
+			</div>
+			
+			<!-- PROTOTYPE -->
+			<div class="row clearfix">
+				<div class="title prototype__title--semi-full"><span>Prototype</span></div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">Wireframe</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">Prototype</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+				<div class="cards empty_card">
+				</div>
+			</div>
+			<!-- Interaction design -->
+			<div class="row clearfix">
+				<div class="title prototype__title--light"><span>Interaction design</span></div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">Gestures</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">Micro interactions</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">Transitions</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+			</div>
+			
+			
+			<!-- DESIGN AND IMPLEMENT SECTION -->
+			<div class="row clearfix content-section design-implement-section">
+				<h2 class="content-section__title">Design and implement</h2>
+			</div>
+			<!-- COMMUNICATION -->
+			<div class="row clearfix">
+				<div class="title design-implement__title--semi-full"><span>Communication</span></div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">Tone of voice</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">Language</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+				<div class="cards empty_card">
+				</div>
+			</div>
+			<!-- UI design part 1 -->
+			<div class="row clearfix">
+				<div class="title design-implement__title--light"><span>UI design</span></div>
+				<div class="cards design-implement__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">UI elements</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards design-implement__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">Mockups</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+				<div class="cards design-implement__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">Responsiveness</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+			</div>
+			
+			<!-- UI design part 2 -->
+			<div class="row clearfix">
+				<div class="title design-implement__title--light"><span></span></div>
+				<div class="cards design-implement__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">Fonts and colours hierarchy</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards design-implement__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">Consistency</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+				<div class="cards design-implement__cards empty_card">
+				</div>
+			</div>
+			<!-- Give feedback 1 -->
+			<div class="row clearfix">
+				<div class="title design-implement__title--lightest"><span>Give feedback</span></div>
+				<div class="cards design-implement__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">Waiting times</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards design-implement__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">Errors</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+				<div class="cards design-implement__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">Completed actions</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+			</div>
+			<!-- GIVE FEEDBACK 2 -->
+			<div class="row clearfix">
+				<div class="title design-implement__title--lightest"><span></span></div>
+				<div class="cards design-implement__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">Indicate local</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards design-implement__cards empty_card">
+				</div>
+				<div class="cards design-implement__cards empty_card">
+				</div>
+			</div>
+			<!-- IMPLEMENT -->
+			<div class="row clearfix">
+				<div class="title design-implement__title--lightest"><span>Implement</span></div>
+				<div class="cards design-implement__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">Use of images and icons</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards design-implement__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">Pattern library</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+				<div class="cards design-implement__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox2">Styleguide	</label>
+						<p>Add text here <a class="more hide-for-print" href="http://www.nngroup.com/articles/analytics-user-experience/" target="_blank" title="Three Uses for Analytics in User-Experience Practice">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox2" type="checkbox">
+					</div>
+				</div>
+			</div>
+			<!-- TEST SECTION -->
+			<div class="row clearfix content-section test-section">
+				<h2 class="content-section__title">Test</h2>
+			</div>
+			<!-- TEST QUALITATIVE 1 -->
+			<div class="row clearfix">
+				<div class="title test__title--semi-full"><span>Test (qualitative)</span></div>
+				<div class="cards test__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">Usability testing</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards test__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">Heuristic evaluation</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards test__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">Expert evaluation</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+			</div>
+			<!-- TEST QUALITATIVE 2 -->
+			<div class="row clearfix">
+				<div class="title test__title--semi-full"><span></span></div>
+				<div class="cards test__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">Lab testing</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards test__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">Cognitive walkthrough</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards test__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">Guerilla testing</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+			</div>
+			<!-- TEST QUANTITATIVE -->
+			<div class="row clearfix">
+				<div class="title test__title--light"><span>Test (quantitative)</span></div>
+				<div class="cards test__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">A/B and multivariate testing</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards test__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">KPI setup</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+				<div class="cards test__cards">
+					<div class="img">
+						<img class="left" src="img/z-icons128/storymapping.png">
+					</div>
+					<div class="card-content left">
+						<label for="checkbox1">Web analytics / metrics</label>
+						<p>Add text here <a class="more hide-for-print" href="">Read more</a></p>
+					</div>
+					<div class="right">
+						<input id="checkbox1" type="checkbox">
+					</div>
+				</div>
+			</div>
+			</form>
+			
+			<!-- FOOTER -->
+			<div id="footer" class="">
+				
+				<div id="toolbar" class="hide-for-print">
+					<button id="print" type="button"><i class="fa fa-print"></i>Print</button>
+					<button id="reset"><i class="fa fa-refresh"></i>Reset</button>
+				</div>
+				
+				<div id="credits">Adopted by Zuhlke from orginal creation by&nbsp;<a href="https://twitter.com/sovesove" target="_blank" title="@sovesove">@sovesove</a></div>
+			</div>
+			<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+			<!-- <script src="js/vendor/jquery.js"></script> -->
+			<script>
+			window.Modernizr || document.write('<script type="text/javascript" src="js/vendor/modernizr.js">\x3C/script>');
+			window.jQuery || document.write('<script type="text/javascript" src="js/vendor/jquery.js">\x3C/script>');
+			</script>
+			<script src="js/garlic.js"></script>
+			<script src="js/jquery-labelauty.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>
+			<script>
+				$(document).ready(function(){
+					$(":checkbox").labelauty({ label: false });
+					$("#checklist-form").garlic();
+					$("#print").on('click', function(){
+						ga('send', 'event', 'print', 'click', 'print');
+						window.print();
+					});
+					$("#reset").on('click', function(){
+						ga('send', 'event', 'reset', 'click', 'reset');
+						$('input:checkbox').each(function() {
+							$(this).prop('checked', false);
+						});
+						$("#checklist-form").garlic('destroy');
+					});
+					$("#footer a").on('click', function(e){
+						var elm = e.currentTarget;
+						ga('send', 'event', 'footer', $(elm).attr('title'));
+					});
+					$("input:checkbox").on('change', function(e){
+						var cb = $(this);
+						var id = cb.attr('id');
+						var isChecked = cb.is(':checked');
+						ga('send', 'event', {
+							'eventCategory': 'checkbox',
+							'eventAction': isChecked ? 'set' : 'clear',
+							'eventLabel': id
+						});
+					});
+					$('.open-popup-link').magnificPopup({
+						type:'inline',
+						midClick: true,
+						callbacks: {
+							open: function() {
+								ga('send', 'event', 'popup', 'open', $(this.content).attr('id'));
+							},
+							close: function() {
+								ga('send', 'event', 'popup', 'close', $(this.content).attr('id'));
+							}
+						}
+					});
+				});
+				//realtime api
+				var checkboxes = {};
+				var view = null;
+				var controller = null;
+				$().ready(function(){
+					var isFn = function(id, e) { return $(e).is(':checked'); };
+					var setFn = function(id, e, val) {
+						$(e).prop('checked', val);
+						$(e).garlic('persist');
+					};
+					$('input:checkbox').each(function() {
+						var id = $(this).attr('id');
+						checkboxes[id] = new Realtime.Model.CheckBox(id, this, isFn, setFn);
+					});
+					view = new Realtime.View(checkboxes);
+					var cb = view.checkboxes;
+					console.log(cb);
+					controller = new Realtime.Controller(view);
+					gapi.load("auth:client,drive-realtime,drive-share", function () {
+						controller.init();
+						$('form').on('change', 'input:checkbox', function(ev){
+							console.log(ev);
+							controller.onCheckBoxChange($(ev.target).attr('id'));
+						});
+						var signinSuccess = function() {
+							$('#signin-do').hide();
+							$('#signin-fail').hide();
+							$('#signin-success').show();
+							$("#reset").on('click', function(){
+								controller.save();
+							});
+						};
+						var signinFailed = function() {
+							$('#signin-fail').show();
+						};
+						controller.auth(true,
+							signinSuccess,
+							function(){$('#signin-do').show();}
+						);
+						$('#signin').on('click', function(){
+							controller.auth(false, signinSuccess, signinFailed);
+						});
+					});
+				});
+			</script>
+			<script type="text/javascript" src="https://apis.google.com/js/api.js"></script>
+			<script type="text/javascript" src="js/realtime.js"></script>
+		</body>
+	</html>
