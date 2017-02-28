@@ -156,5 +156,199 @@
 				}]
 			}]
 		}]
-	}, {}]
-}
+	}, {
+		"title": "Ideate",
+		"subsections": [{
+			"title": "Hypothesise",
+			"cards": [{
+				"id": "branstorm-and-sketch",
+				"title": "Brainstorm and sketch",
+				"text-copy": "Invite people to UX workshops, bring stationery into a room to create, sketch and discuss ideas",
+				"links": [{
+					"link-text": "UX workshops",
+					"link-url": "http://www.uxforthemasses.com/ux-workshops/"
+				}]
+			}, {
+				"id": "scenarios",
+				"title": "Scenarios",
+				"text-copy": "Map out potential scenarios that users might go through",
+				"links": [{
+					"link-text": "Scenario mapping",
+					"link-url": "http://www.uxforthemasses.com/scenario-mapping/"
+				}, {
+					"link-text": "Writing user stories",
+					"link-url": "https://www.newfangled.com/how-to-tell-the-users-story/"
+				}]
+			}, {
+				"id": "navigation-concepts",
+				"title": "Navigation concepts",
+				"text-copy": "Create possible cognitive navigation patterns that align with users conceptual models",
+				"links": [{
+					"link-text": "TBA",
+					"link-url": "#"
+				}]
+			}
+		]
+		},
+		{
+			"title": "Information architecture",
+			"cards": [{
+				"id": "ooux",
+				"title": "OOUX (Object Oriented User Experience)",
+				"text-copy": "Identify cognitive objects and understand their relationships before designing the system",
+				"links": [{
+					"link-text": "OOUX",
+					"link-url": "https://alistapart.com/article/object-oriented-ux"
+				},{
+					"link-text": "OOUX interaction design",
+					"link-url": "https://alistapart.com/article/ooux-a-foundation-for-interaction-design"
+				}
+			]
+			}, {
+				"id": "ia-design",
+				"title": "Information architecture design",
+				"text-copy": "Understand the structure of content and data. How can you organise content and navigation in a consistent way that makes sense to users? ",
+				"links": [{
+					"link-text": "IA Overview",
+					"link-url": "http://www.uxbooth.com/articles/complete-beginners-guide-to-information-architecture/#follow"
+				},{
+					"link-text": "Modern navigation",
+					"link-url": "http://www.uxbooth.com/articles/the-rules-for-modern-navigation/"
+				},{
+					"link-text": "IA for mobile",
+					"link-url": "http://www.uxbooth.com/articles/designing-for-mobile-part-1-information-architecture/"
+				}
+			]
+			}
+		]
+		},
+		{
+			"title": "Future mapping",
+			"cards": [{
+				"id": "future-mapping",
+				"title": "User journey maps",
+				"text-copy": "Ideate on future user journeys matching the users workflows. Use storytelling to communicate redesigned user journeys",
+				"links": [{
+					"link-text": "User journey maps",
+					"link-url": "https://blog.marvelapp.com/run-empathy-user-journey-mapping-workshop/"
+				}
+			]
+			}, {
+				"id": "system-maps",
+				"title": "System maps",
+				"text-copy": "Map objects and their relationships within a system to build a shared understanding with stakeholders and users",
+				"links": [{
+					"link-text": "TBA",
+					"link-url": "#"
+				}
+			]
+			}, {
+				"id": "see-do-diagrams",
+				"title": "See-do diagrams",
+				"text-copy": "Map out what users can see and do at each screen. Break it down into atoms.",
+				"links": [{
+					"link-text": "See-do diagrams",
+					"link-url": "https://medium.com/@tyrale/ux-triage-what-i-have-learned-performing-ux-audits-around-the-globe-250266ac95a5#.q02nbll3y"
+				},{
+					"link-text": "See-do to grays",
+					"link-url": "https://medium.com/swlh/ux-triage-moving-from-see-do-to-grays-b9f3e8692d04#.t67xjgii8"
+				}
+			]
+			}
+		]
+		}
+	]
+	}, {
+		"title": "Prototype",
+		"subsections": [{
+			"title": "Prototype",
+			"cards": [{
+				"id": "wireframe",
+				"title": "Wireframe",
+				"text-copy": "Structure content into layouts, that are aligned with your user flows.",
+				"links": [{
+					"link-text": "TBA",
+					"link-url": "#"
+				}]
+			}, {
+				"id": "prototype",
+				"title": "Prototype",
+				"text-copy": "Create quick paper prototypes or use tools to build interactive prototypes to test your ideas",
+				"links": [{
+					"link-text": "Guide to prototyping",
+					"link-url": "https://www.uxpin.com/studio/blog/what-is-a-prototype-a-guide-to-functional-ux/"
+				}
+			]
+			}
+		]
+		},
+		{
+			"title": "Information architecture",
+			"cards": [{
+				"id": "ooux",
+				"title": "OOUX (Object Oriented User Experience)",
+				"text-copy": "Identify cognitive objects and understand their relationships before designing the system",
+				"links": [{
+					"link-text": "OOUX",
+					"link-url": "https://alistapart.com/article/object-oriented-ux"
+				},{
+					"link-text": "OOUX interaction design",
+					"link-url": "https://alistapart.com/article/ooux-a-foundation-for-interaction-design"
+				}
+			]
+			}, {
+				"id": "ia-design",
+				"title": "Information architecture design",
+				"text-copy": "Understand the structure of content and data. How can you organise content and navigation in a consistent way that makes sense to users? ",
+				"links": [{
+					"link-text": "IA Overview",
+					"link-url": "http://www.uxbooth.com/articles/complete-beginners-guide-to-information-architecture/#follow"
+				},{
+					"link-text": "Modern navigation",
+					"link-url": "http://www.uxbooth.com/articles/the-rules-for-modern-navigation/"
+				},{
+					"link-text": "IA for mobile",
+					"link-url": "http://www.uxbooth.com/articles/designing-for-mobile-part-1-information-architecture/"
+				}
+			]
+			}
+		]
+		},
+		{
+			"title": "Future mapping",
+			"cards": [{
+				"id": "future-mapping",
+				"title": "User journey maps",
+				"text-copy": "Ideate on future user journeys matching the users workflows. Use storytelling to communicate redesigned user journeys",
+				"links": [{
+					"link-text": "User journey maps",
+					"link-url": "https://blog.marvelapp.com/run-empathy-user-journey-mapping-workshop/"
+				}
+			]
+			}, {
+				"id": "system-maps",
+				"title": "System maps",
+				"text-copy": "Map objects and their relationships within a system to build a shared understanding with stakeholders and users",
+				"links": [{
+					"link-text": "TBA",
+					"link-url": "#"
+				}
+			]
+			}, {
+				"id": "see-do-diagrams",
+				"title": "See-do diagrams",
+				"text-copy": "Map out what users can see and do at each screen. Break it down into atoms.",
+				"links": [{
+					"link-text": "See-do diagrams",
+					"link-url": "https://medium.com/@tyrale/ux-triage-what-i-have-learned-performing-ux-audits-around-the-globe-250266ac95a5#.q02nbll3y"
+				},{
+					"link-text": "See-do to grays",
+					"link-url": "https://medium.com/swlh/ux-triage-moving-from-see-do-to-grays-b9f3e8692d04#.t67xjgii8"
+				}
+			]
+			}
+		]
+		}
+	]
+	}
+]}
