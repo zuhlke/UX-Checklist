@@ -283,67 +283,186 @@
 		]
 		},
 		{
-			"title": "Information architecture",
+			"title": "Interaction design",
 			"cards": [{
-				"id": "ooux",
-				"title": "OOUX (Object Oriented User Experience)",
-				"text-copy": "Identify cognitive objects and understand their relationships before designing the system",
-				"links": [{
-					"link-text": "OOUX",
-					"link-url": "https://alistapart.com/article/object-oriented-ux"
-				},{
-					"link-text": "OOUX interaction design",
-					"link-url": "https://alistapart.com/article/ooux-a-foundation-for-interaction-design"
-				}
-			]
-			}, {
-				"id": "ia-design",
-				"title": "Information architecture design",
-				"text-copy": "Understand the structure of content and data. How can you organise content and navigation in a consistent way that makes sense to users? ",
-				"links": [{
-					"link-text": "IA Overview",
-					"link-url": "http://www.uxbooth.com/articles/complete-beginners-guide-to-information-architecture/#follow"
-				},{
-					"link-text": "Modern navigation",
-					"link-url": "http://www.uxbooth.com/articles/the-rules-for-modern-navigation/"
-				},{
-					"link-text": "IA for mobile",
-					"link-url": "http://www.uxbooth.com/articles/designing-for-mobile-part-1-information-architecture/"
-				}
-			]
-			}
-		]
-		},
-		{
-			"title": "Future mapping",
-			"cards": [{
-				"id": "future-mapping",
-				"title": "User journey maps",
-				"text-copy": "Ideate on future user journeys matching the users workflows. Use storytelling to communicate redesigned user journeys",
-				"links": [{
-					"link-text": "User journey maps",
-					"link-url": "https://blog.marvelapp.com/run-empathy-user-journey-mapping-workshop/"
-				}
-			]
-			}, {
-				"id": "system-maps",
-				"title": "System maps",
-				"text-copy": "Map objects and their relationships within a system to build a shared understanding with stakeholders and users",
+				"id": "gestures",
+				"title": "Gestures",
+				"text-copy": "If you design for mobile tablets, what gestures are avaialble? Pinch, drag, zoom? What if left-handed? What if users need voice interaction?",
 				"links": [{
 					"link-text": "TBA",
 					"link-url": "#"
 				}
 			]
 			}, {
-				"id": "see-do-diagrams",
-				"title": "See-do diagrams",
-				"text-copy": "Map out what users can see and do at each screen. Break it down into atoms.",
+				"id": "micro-interactions",
+				"title": "Micro interactions",
+				"text-copy": "Introduce micro interactions to aid users to get feedback on what's happening and provide delightful surprises",
 				"links": [{
-					"link-text": "See-do diagrams",
-					"link-url": "https://medium.com/@tyrale/ux-triage-what-i-have-learned-performing-ux-audits-around-the-globe-250266ac95a5#.q02nbll3y"
+					"link-text": "TBA",
+					"link-url": "#"
+				}
+			]
+			}, {
+				"id": "transitions",
+				"title": "Transitions",
+				"text-copy": "Design transitions that help users understand the interactions and the outcomes",
+				"links": [{
+					"link-text": "Smart transitions",
+					"link-url": "https://www.smashingmagazine.com/2013/10/smart-transitions-in-user-experience-design/"
+				}
+			]
+			}
+		]
+		}
+	]
+	}, {
+		"title": "Design and implement",
+		"subsections": [{
+			"title": "Communication",
+			"cards": [{
+				"id": "language",
+				"title": "Language",
+				"text-copy": "Speak the same language as your users. It should match what your company does, and the user demographics",
+				"links": [{
+					"link-text": "TBA",
+					"link-url": "#"
+				}]
+			}, {
+				"id": "tone-of-voice",
+				"title": "Tone of voice",
+				"text-copy": "Make sure the tone of voice and copywriting reflect the impression you're trying to create. E.g. friendly, formal, informal",
+				"links": [{
+					"link-text": "Tone of voice",
+					"link-url": "https://uxmag.com/articles/tone-and-voice-showing-your-users-that-you-care"
+				}
+			]
+			}
+		]
+		},
+		{
+			"title": "Give feedback",
+			"cards": [{
+				"id": "waiting-times",
+				"title": "Waiting times",
+				"text-copy": "Inform the user on the current progress, make your application feel faster.",
+				"links": [{
+					"link-text": "Make apps feel faster",
+					"link-url": "https://www.sitepoint.com/3-tips-make-application-feel-faster/"
+				}
+			]
+			}, {
+				"id": "errors",
+				"title": "Errors",
+				"text-copy": "Try to avoid users making errors, and if they do, make sure you help them recover from errors",
+				"links": [{
+					"link-text": "Error handling",
+					"link-url": "http://www.userjourneys.com/blog/ux-guidelines-for-error-handling/"
 				},{
-					"link-text": "See-do to grays",
-					"link-url": "https://medium.com/swlh/ux-triage-moving-from-see-do-to-grays-b9f3e8692d04#.t67xjgii8"
+					"link-text": "Best error messages",
+					"link-url": "http://freshsparks.com/user-experience-tips-best-error-messages/"
+				}
+			]
+			}, {
+				"id": "completed-actions",
+				"title": "Completed actions",
+				"text-copy": "TBA",
+				"links": [{
+					"link-text": "TBA",
+					"link-url": "#"
+				}
+			]
+			}, {
+				"id": "indicate-status",
+				"title": "Indicate status",
+				"text-copy": "Always show the state of the system to your users",
+				"links": [{
+					"link-text": "Usability heuristics",
+					"link-url": "https://www.nngroup.com/articles/ten-usability-heuristics/"
+				}
+			]
+			}
+		]
+		},
+		{
+			"title": "UI design and implementation",
+			"cards": [{
+				"id": "ui-elements",
+				"title": "UI elements",
+				"text-copy": "Create styleguide and pattern libraries to keep the consistency and guide the UI design.",
+				"links": [{
+					"link-text": "UI patterns",
+					"link-url": "http://ui-patterns.com/"
+				},{
+					"link-text": "Golden ratio",
+					"link-url": "https://blog.marvelapp.com/golden-ratio-ui-design/?utm_source=play_and_record_marvel_prototypes_in_sketch_and_golden_ratio_in_design&utm_medium=weekly-newsletter&utm_campaign=marvel-newsletter-2017-02-09&utm_term=2017-02-09"
+				},{
+					"link-text": "Styleguides",
+					"link-url": "http://styleguides.io/"
+				}
+			]
+			}, {
+				"id": "mockups",
+				"title": "Mockups",
+				"text-copy": "Create high fidelity visual mockups in order to communicate with the stakeholders and developers on how the system will look like.",
+				"links": [{
+					"link-text": "Mockups",
+					"link-url": "https://designmodo.com/mockups/"
+				}
+			]
+			}, {
+				"id": "images-and-icons",
+				"title": "Use of images and icons",
+				"text-copy": "Use images and icons as visual cues to better guide the users.",
+				"links": [{
+					"link-text": "Icons usability",
+					"link-url": "https://www.nngroup.com/articles/icon-usability/"
+				}
+			]
+			}, {
+				"id": "responsive-design",
+				"title": "Responsive design",
+				"text-copy": "Design the system for the intended devices. Research whether they switch between devices.",
+				"links": [{
+					"link-text": "Responsive design",
+					"link-url": "http://www.slideshare.net/annadahlstrom/bulding-device-agnostic-ux-systems-generate-london-23-sep-2016?ref=http://www.annadahlstrom.com/talks-workshops/"
+				}
+			]
+			}, {
+				"id": "font-and-colours",
+				"title": "Font and colour hierarchy",
+				"text-copy": "Design a comprehensive and cohesive visual language. Keep it simple, stick to guidelines and use a limited number of sizes and colours. Consider accessibility constraints/requirements",
+				"links": [{
+					"link-text": "Colour conversion rates",
+					"link-url": "https://www.usertesting.com/blog/2014/12/02/color-ux-conversion-rates/"
+				},{
+					"link-text": "Contrasts",
+					"link-url": "http://uxmovement.com/buttons/how-button-color-contrast-guides-users-to-action/"
+				},{
+					"link-text": "Fonts",
+					"link-url": "https://blogs.windows.com/buildingapps/2016/03/24/understanding-typography-and-ux-design/#fV5iC1QkQrtcoJQp.97"
+				}
+			]
+			}
+		]
+		},
+		{
+			"title": "Usability",
+			"cards": [{
+				"id": "accessibility",
+				"title": "Accessibility",
+				"text-copy": "Research and consider accessibility constraints/requirements for your intended users",
+				"links": [{
+					"link-text": "Accessibility checklist",
+					"link-url": "https://www.w3.org/TR/WCAG10/full-checklist.html"
+				}
+			]
+			}, {
+				"id": "usability",
+				"title": "Usability",
+				"text-copy": "Evaluate using the 10 heuristics",
+				"links": [{
+					"link-text": "Usability heuristics",
+					"link-url": "https://www.nngroup.com/articles/ten-usability-heuristics/"
 				}
 			]
 			}
