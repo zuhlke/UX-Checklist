@@ -16,7 +16,6 @@
 		<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
 		<!-- <script src="js/vendor/modernizr.js"></script> -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
-		<script src="data.js"></script>
 		
 	</head>
 	<body>
@@ -29,8 +28,9 @@
 				</div>
 			</div>
 			<form id="checklist-form" method="POST">
-				
-				<div id='template-id'>
+		
+
+					<div id='template-id'>
 					{{#sections}}
 					<div class="section">
 						<div class='row section-header'>
@@ -41,26 +41,29 @@
 							<div class="row subsection">
 								<div class="col-md-1 subsection__heading"><span>{{title}}</span></div>
 								<div class="col-md-11 subsection__content">
-									<div class="row">
+									<div class="row card-row">
 										{{#cards}}
-										<div class="col-md-4 card">
+										<div class="col-md-6 col-lg-4 card">
 											<div class="row">
-												<div class="col-md-10">
-													<div class="pull-left card__img">
-														<img src="img/z-icons128/storymapping.png">
-													</div>
-													<div class="pull-left card__content">
-														<label class="card__title" for="{{id}}">{{title}}</label>
-														<p>{{text-copy}}
-															{{#links}}
-															<a href="{{link-url}}" target="_blank">{{link-text}}</a>
-															{{/links}}
-														</p>
+												<div class="col-sm-1 col-md-2 hidden-xs card__img">
+													<img src="img/z-icons128/storymapping.png">
+												</div>
+												
+												<div class="col-xs-10 col-sm-10 col-md-9 card__content">
+													<label class="card__title" for="{{id}}">{{title}}</label>
+													<p class="card__text">{{text-copy}}</p>
+													<ul class="links">
+														{{#links}}
+														<li class="links__item"><a href="{{link-url}}" target="_blank">{{link-text}}</a></li>
+														{{/links}}
+													</p>
+												</div>
+												<div class="col-xs-2 col-sm-1 col-md-1">
+													<div class="pull-right">
+														<input id="{{id}}" type="checkbox">
 													</div>
 												</div>
-												<div class="col-md-2">
-													<input id="{{id}}" type="checkbox">
-												</div>
+												
 											</div>
 										</div>
 										{{/cards}}
@@ -75,46 +78,6 @@
 				</div>
 
 
-				<!-- <div id='template-id'>
-					{{#sections}}
-					<div class="section">
-						<div class='row section-header'>
-							<h1 class="col-md-12 section-header__heading">{{title}}</h1>
-						</div>
-
-						{{#subsections}}
-							<div class="row subsection">
-								<div class="col-md-1 subsection__heading"><span>{{title}}</span></div>
-								<div class="col-md-11 subsection__content">
-									<div class="row">
-										{{#cards}}
-										<div class="col-md-4 card">
-											<div class="pull-left card__img">
-												<img class="left" src="img/z-icons128/storymapping.png">
-											</div>
-											<div class="pull-left card__content">
-												<label class="card__title" for="{{id}}">{{title}}</label>
-												<p>{{text-copy}}
-													{{#links}}
-													<a href="{{link-url}}" target="_blank">{{link-text}}</a>
-													{{/links}}
-												</p>
-											</div>
-											<div class="pull-right">
-												<input id="{{id}}" type="checkbox">
-											</div>
-										</div>
-										{{/cards}}
-										{{resetIndex}}
-									</div>
-								</div>
-							</div>
-						{{/subsections}}
-					</div>
-					{{/sections}}
-
-				</div>
- -->
 				
 				
 			</form>
@@ -247,45 +210,33 @@
 							{
 								'id': "business-context",
 								'title': "Business context",
-								'text-copy': 'This is a business concept',
+								'text-copy': 'Gain understanding of the business goals and priorities through stakeholder interviews and analysis',
 								'links': [
 								{
-									'link-text': 'Read more',
-									'link-url': 'http://stackoverflow.com/questions/9203858/how-do-i-use-nested-iterators-with-mustache-js-or-handlebars-js'
-								},
-								{
-									'link-text': 'Read more 2',
-									'link-url': 'http://stackoverflow.com/questions/9203858/how-do-i-use-nested-iterators-with-mustache-js-or-handlebars-js'
+									'link-text': 'Stakeholder interviews',
+									'link-url': 'http://boxesandarrows.com/a-stakeholder-interview-checklist/'
 								}
 								]
 							},
 							{
 								'id': "competitor-analysis",
 								'title': "Competitor analysis",
-								'text-copy': 'This is a competitor analysis',
+								'text-copy': 'Learn from how others have solved similar problems. Compare successful/unsucessful solutions',
 								'links': [
 								{
-									'link-text': 'Read more',
-									'link-url': 'http://stackoverflow.com/questions/9203858/how-do-i-use-nested-iterators-with-mustache-js-or-handlebars-js'
-								},
-								{
-									'link-text': 'Read more 2',
-									'link-url': 'http://stackoverflow.com/questions/9203858/how-do-i-use-nested-iterators-with-mustache-js-or-handlebars-js'
+									'link-text': 'Competitor analysis',
+									'link-url': 'http://boxesandarrows.com/competitive-analysis-understanding-the-market-context/'
 								}
 								]
 							},
 							{
 								'id': "benchmark-studies",
 								'title': "Benchmark studies",
-								'text-copy': 'This is a benchmark study',
+								'text-copy': 'Compare desired outcomes and features against industry standards',
 								'links': [
 								{
-									'link-text': 'Read more',
-									'link-url': 'http://stackoverflow.com/questions/9203858/how-do-i-use-nested-iterators-with-mustache-js-or-handlebars-js'
-								},
-								{
-									'link-text': 'Read more 2',
-									'link-url': 'http://stackoverflow.com/questions/9203858/how-do-i-use-nested-iterators-with-mustache-js-or-handlebars-js'
+									'link-text': 'Benchmark studies',
+									'link-url': 'http://www.userzoom.com/ux-benchmarking/competitive-ux-benchmark-studies-win-customers-by-staying-ahead-of-the-competition/'
 								}
 								]
 							}
@@ -295,33 +246,25 @@
 							'title': 'Analysis',
 							'cards': [
 							{
-								'id': "test-context",
-								'title': "Test context",
-								'text-copy': 'This is a test concept',
+								'id': "data-analysis",
+								'title': "Data analysis",
+								'text-copy': 'See if you can find any useful data. Page views, clicks etc. Include big data, CRM systems or any existing data',
 								'links': [
 								{
-									'link-text': 'Read more',
-									'link-url': 'http://stackoverflow.com/questions/9203858/how-do-i-use-nested-iterators-with-mustache-js-or-handlebars-js'
-								},
-								{
-									'link-text': 'Read more 2',
-									'link-url': 'http://stackoverflow.com/questions/9203858/how-do-i-use-nested-iterators-with-mustache-js-or-handlebars-js'
+									'link-text': 'TBA',
+									'link-url': '#'
 								}
 								]
 								
 							},
 							{
-								'id': "test-context",
-								'title': "User journey maps",
-								'text-copy': 'This is a competitor analysis',
+								'id': "user-journey-maps-now",
+								'title': "User journey maps (now)",
+								'text-copy': 'Understand how users use the existing system by mapping out the user flows and pathways',
 								'links': [
 								{
-									'link-text': 'Read more',
-									'link-url': 'http://stackoverflow.com/questions/9203858/how-do-i-use-nested-iterators-with-mustache-js-or-handlebars-js'
-								},
-								{
-									'link-text': 'Read more 2',
-									'link-url': 'http://stackoverflow.com/questions/9203858/how-do-i-use-nested-iterators-with-mustache-js-or-handlebars-js'
+									'link-text': 'User journey maps',
+									'link-url': 'https://blog.marvelapp.com/run-empathy-user-journey-mapping-workshop/'
 								}
 								]
 							},
@@ -454,17 +397,29 @@
 					}
 				]
 			};
-			
 
+			// var testData = [];
+			
+			// $.getJSON('data.json', function(testData) {
+			// 	function loadOurData() {
+			// 		var template = $('#template-id').html();
+			// 		Mustache.parse(template);   // optional, speeds up future uses
+			// 		var rendered = Mustache.render(template, testData);
+			// 		$('#template-id').html(rendered);
+			// 	}
+
+			// 	loadOurData();
+			// });
 			
 			function loadOurData() {
-			  var template = $('#template-id').html();
-			  Mustache.parse(template);   // optional, speeds up future uses
-			  var rendered = Mustache.render(template, testData);
-			  $('#template-id').html(rendered);
+				var template = $('#template-id').html();
+				Mustache.parse(template);   // optional, speeds up future uses
+				var rendered = Mustache.render(template, testData);
+				$('#template-id').html(rendered);
 			}
 
 			loadOurData();
+			
 
 
 
