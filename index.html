@@ -13,7 +13,7 @@
 		
 		<!-- SCRIPTS -->
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax	/libs/mustache.js/2.3.0/mustache.js"></script>
 		<script src="js/jquery-labelauty.js"></script>
 		<script src="js/custom-checkboxes.js"></script>
 		
@@ -27,14 +27,29 @@
 
 	</head>
 	<body>
+		
+			
 		<div class="container-fluid">
-			<div id="header">
+			<!-- <div id="header row"> -->
 				<!-- LOGO AND TITLE -->
-				<div class="logo"></div>
-				<div class="header-title">
-					<h1 class="header-title__heading">Zuhlke UX checklist</h1>
+			<!-- 	<div class="col-lg-8">
+					<h1 class="header-title">Zuhlke UX checklist</h1>
 				</div>
+				<div class="col-lg-4">
+					 <div class="logo"></div>
+				</div>
+			</div> -->
+			<div id="header" class="row">
+				<!-- LOGO AND TITLE -->
+				<div class="col-xs-8">
+					<h1 class="header-title">Zuhlke UX checklist</h1>
+				</div>
+				<div class="col-xs-4 logo"></div>
 			</div>
+		</div>
+
+
+		<div class="container-fluid">
 
 			<!-- FORM -->
 			<form id="checklist-form" method="POST">
@@ -46,7 +61,7 @@
 					{{#sections}}
 					<div class="section">
 						<div class='row section-header'>
-							<h1 class="col-md-12 section-header__heading">{{title}}</h1>
+							<h1 class="col-lg-12 section-header__heading">{{title}}</h1>
 						</div>
 						
 						<!-- SUBSECTIONS -->
@@ -96,18 +111,19 @@
 
 			<!-- END OF FORM -->
 			</form>
-
+		</div>
 		
 		<!-- FOOTER -->
-		<div id="footer" class="row">
-			
-			<!-- <div id="toolbar" class="hide-for-print">
-				<button id="print" type="button"><i class="fa fa-print"></i>Print</button>
-				<button id="reset"><i class="fa fa-refresh"></i>Reset</button>
-			</div> -->
-			
-			<div class="credits col-lg-12"><p>Adopted by Zuhlke from orginal creation by&nbsp;<a href="https://twitter.com/sovesove" target="_blank" title="@sovesove">@sovesove</a></p></div>
-		</div>
+		<div class="container-fluid">
+			<div id="footer" class="row">
+				
+				<!-- <div id="toolbar" class="hide-for-print">
+					<button id="print" type="button"><i class="fa fa-print"></i>Print</button>
+					<button id="reset"><i class="fa fa-refresh"></i>Reset</button>
+				</div> -->
+				
+				<div class="credits col-lg-12"><p>Adopted by Zuhlke from orginal creation by&nbsp;<a href="https://twitter.com/sovesove" target="_blank" title="@sovesove">@sovesove</a></p></div>
+			</div>
 
 		</div>
 		<!-- END OF CONTAINER FLUID -->

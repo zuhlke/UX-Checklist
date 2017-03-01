@@ -51,6 +51,58 @@ a {
 }
 
 
+
+#header {
+	background: #fff;
+	padding: 20px 0px;
+}
+
+.header-title {
+	color: $z-gray--darkest;
+	padding: 0;
+	margin: 37px 0px;
+	@media (max-width: 768px) {
+		font-size: 2.6rem;
+		margin: 15px 0px;
+	}
+}
+
+
+
+
+/* for low resolution display */
+.logo {
+	margin: 0px 15px;
+	float: right;
+	background: red;
+    background-image: url("../img/Zuehlke_Logo_rgb_120px.jpg");
+    background-size: 120px 120px;
+    height: 120px;
+    width: 120px;
+    @media (max-width: 768px) {
+		height: 60px;
+    	width: 60px;
+    	background-image: url("../img/Zuehlke_Logo_rgb_60px.jpg");
+    	background-size: 60px 60px;
+	}
+}
+
+
+
+
+/* for high resolution display */
+@media only screen and 
+(min--moz-device-pixel-ratio: 2),only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+	.logo {
+	    background: url('../img/Zuehlke_Logo_rgb_240px.jpg') no-repeat;
+	    background-size: 120px 120px;
+	    @media (max-width: 768px) {
+	    	background-image: url("../img/Zuehlke_Logo_rgb_120px.jpg");
+	    	background-size: 60px 60px;
+		}
+	}
+}
+
 .section-header {
 	color: #fff;
 	&__heading {
@@ -273,10 +325,12 @@ a {
 
 	&__text {
 		margin-bottom: 0;
+		color: $z-gray--dark;
 	}
 
 	& label {
 		font-size: 2rem;
+		color: $z-gray--darkest;
 
 		&:hover {
 			cursor: pointer;
