@@ -41,7 +41,7 @@ ul {
 }
 
 a {
-  color: $z-orange--dark;
+  color: $z-orange--primary;
 
   &:hover,
   &:focus {
@@ -135,7 +135,7 @@ a {
 .subsection {
 
 	&__heading {
-		color: #fff;
+		color: $z-gray--darkest;
 		padding-top: 15px;
 		padding-bottom: 15px;
 	}
@@ -155,9 +155,9 @@ a {
 	& .subsection:nth-child(4) {
 		background: $z-orange--light;
 	}
-	& .subsection:nth-child(5) {
-		background: $z-orange--lightest;
-	}
+	// & .subsection:nth-child(5) {
+	// 	background: $z-orange--lightest;
+	// }
 	@media (max-width: 991px) {
 	.subsection {
 		background: #fff !important;
@@ -182,9 +182,9 @@ a {
 	& .subsection:nth-child(4) {
 		background: $z-yellow--light;
 	}
-	& .subsection:nth-child(5) {
-		background: $z-yellow--lightest;
-	}
+	// & .subsection:nth-child(5) {
+	// 	background: $z-yellow--lightest;
+	// }
 	@media (max-width: 991px) {
 	.subsection {
 		background: #fff !important;
@@ -209,9 +209,9 @@ a {
 	& .subsection:nth-child(4) {
 		background: $z-forest-green--light;
 	}
-	& .subsection:nth-child(5) {
-		background: $z-forest-green--lightest;
-	}
+	// & .subsection:nth-child(5) {
+	// 	background: $z-forest-green--lightest;
+	// }
 	@media (max-width: 991px) {
 	.subsection {
 		background: #fff !important;
@@ -236,9 +236,9 @@ a {
 	& .subsection:nth-child(4) {
 		background: $z-lime-green--light;
 	}
-	& .subsection:nth-child(5) {
-		background: $z-lime-green--lightest;
-	}
+	// & .subsection:nth-child(5) {
+	// 	background: $z-lime-green--lightest;
+	// }
 	@media (max-width: 991px) {
 	.subsection {
 		background: #fff !important;
@@ -291,9 +291,9 @@ a {
 	& .subsection:nth-child(4) {
 		background: $z-gray--light;
 	}
-	& .subsection:nth-child(5) {
-		background: $z-gray--lightest;
-	}
+	// & .subsection:nth-child(5) {
+	// 	background: $z-gray--lightest;
+	// }
 	@media (max-width: 991px) {
 	.subsection {
 		background: #fff !important;
@@ -325,7 +325,7 @@ a {
 
 	&__text {
 		margin-bottom: 0;
-		color: $z-gray--dark;
+		color: $z-gray--primary;
 	}
 
 	& label {
@@ -338,10 +338,7 @@ a {
 	}
 	
 	&__img {
-		// margin-bottom: 60px;
 		img {
-			// width: 64px;
-			// height: 64px;
 			width: 100%;
 			height: auto;
 		}
